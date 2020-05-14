@@ -1,3 +1,4 @@
+"use strict";
 // Enums & Tuples
 /*
 Enum : collection de valeurs qui ont un lien entre elles ( jour de la semaine) numérique ou chaine de charactére
@@ -16,5 +17,5 @@ var Weekdays;
 console.log("reer" + Weekdays[1]);
 console.log(Weekdays[2]);
 // TUPLES
-var identity = ['Alex', 42];
-console.log(identity);
+var body = ['Alex', 42];
+console.log(body);

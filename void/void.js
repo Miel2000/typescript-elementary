@@ -1,4 +1,4 @@
-
+"use strict";
 function helloWord(msg) {
     console.log('salut tlm ' + msg);
 }

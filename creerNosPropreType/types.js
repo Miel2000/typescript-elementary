@@ -1,3 +1,4 @@
+"use strict";
 // Crée nos propres types
 // on appel le mapping des données dans une variables et on y défini les informations en respectant les types des données
 var monGars = {
@@ -21,7 +22,7 @@ var monChat = {
 console.log(monGars);
 console.log(monGars2);
 console.log(monChat);
-console.log('________________ TYPE OF & NEVER________________');
+console.log('________________ TYPEOF & NEVER________________');
 var value = 42;
 if (typeof value == "number")
     console.log('Value est un nombre');
@@ -37,6 +38,7 @@ function foo(x) {
 function fail(msg) {
     throw new Error(msg);
 }
+foo(3);
 if (foo(value) == false) {
     console.log('yeet c false');
 }

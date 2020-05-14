@@ -3,18 +3,18 @@
 // numbers together:
 
 // Creates a function in global scope called addOldSchool
-function addOldSchool(x, y) {
+function addOldSchool(x:number, y:number) {
   return x + y;
 }
 
 // You can move the name of the function to a variable
 // name also
-const anonymousOldSchoolFunction = function(x, y) {
+const anonymousOldSchoolFunction = function(x:number, y:number) {
   return x + y;
 };
 
 // You can also use fat-arrow shorthand for a function
-const addFunction = (x, y) => {
+const addFunction = (x:number, y:number) => {
   return x + y;
 };
 
@@ -29,10 +29,10 @@ const addFunction = (x, y) => {
 // says that add takes two inputs of any type: this could
 // be strings, numbers or objects which you've made.
 
-const add1 = (x: any, y: any) => {
+const add1 = (x:number, y:number) => {
   return x + y;
 };
-add1("Hello", 23);
+add1(3, 23);
 
 // This is legitimate JavaScript (strings can be added
 // like this for example) but isn't optimal for our function

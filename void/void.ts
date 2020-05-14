@@ -1,6 +1,6 @@
 
 
-function helloWord(msg): any {
+function helloWord(msg: string) :void {
  
   console.log('salut tlm ' + msg);
 }
@@ -11,3 +11,4 @@ function addition(x: number, y: number): number {
 }
 
 console.log(addition(5,10));
+

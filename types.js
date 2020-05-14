@@ -1,3 +1,4 @@
+"use strict";
 // Déclarer nos types 
 var myVariable;
 myVariable = "Alex";

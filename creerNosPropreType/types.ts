@@ -63,7 +63,7 @@ function foo(x: string | number): boolean {
 function fail(msg: string): never  {
   throw new Error(msg);
 }
-
+foo(3);
 
 if (foo(value) == false) {
   console.log('yeet c false');

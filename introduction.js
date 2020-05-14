@@ -1,3 +1,4 @@
+"use strict";
 // There are quite a few ways to declare a function in
 // JavaScript. Let's look at a function which adds two
 // numbers together:
@@ -18,7 +19,7 @@ var addFunction = function (x, y) {
 // applies to all three formats.
 // TypeScript provides additional syntax which adds to a
 // function definition and offers hints on what types
-// are expected by this function. 
+// are expected by this function.
 //
 // Up next is the most open version of the add function, it
 // says that add takes two inputs of any type: this could
@@ -26,7 +27,7 @@ var addFunction = function (x, y) {
 var add1 = function (x, y) {
     return x + y;
 };
-add1("Hello", 23);
+add1(3, 23);
 // This is legitimate JavaScript (strings can be added
 // like this for example) but isn't optimal for our function
 // which we know is for numbers, so we'll convert the x and

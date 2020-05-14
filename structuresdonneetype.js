@@ -1,3 +1,4 @@
+"use strict";
 var friends = ["Alexis", "Justine", "Sophie"];
 friends = [43, 'EZEZ'];
 var identity = ["Alex", 13];

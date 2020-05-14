@@ -19,5 +19,5 @@ console.log(Weekdays[2]);
 
 // TUPLES
 
-let identity: [string, number] = ['Alex',42];
-console.log(identity);
+let body: [string, number] = ['Alex',42];
+console.log(body);
